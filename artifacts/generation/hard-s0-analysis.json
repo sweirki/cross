@@ -1,0 +1,27 @@
+{
+  "difficulty": "hard",
+  "shard": 0,
+  "generated": 25,
+  "accepted": 5,
+  "ms": 16290,
+  "rejectionCounts": {
+    "accepted": 5,
+    "hard-gate-rejected": 15,
+    "duplicate-rejected": 0,
+    "diversity-rejected": 0,
+    "ranked-out": 5,
+    "generation-failed": 0
+  },
+  "score": {
+    "min": 84.04,
+    "p25": 84.45,
+    "median": 84.7,
+    "p75": 85.62,
+    "max": 85.71
+  },
+  "families": {
+    "diagonal": 2,
+    "four-corners": 1,
+    "triangle": 2
+  }
+}

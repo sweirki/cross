@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": ".campaign-m21-build",
+    "rootDir": ".",
+    "declaration": false,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/application/v1/**/*.ts",
+    "src/data/learningContent.ts",
+    "src/types/**/*.ts",
+    "tools/tests/campaign-experience-m21.test.ts"
+  ],
+  "exclude": [
+    "src/**/*.tsx",
+    "node_modules",
+    ".campaign-m21-build"
+  ]
+}

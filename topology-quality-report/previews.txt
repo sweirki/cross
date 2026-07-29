@@ -1,0 +1,199 @@
+# 01-seed-100001 archetype=chain score=94 grade=excellent
+□ - □ = □
+    +
+    □   □
+    =   ×
+□ ÷ □ = □   □
+        =   +
+    □ - □ = □
+            =
+            □
+
+# 02-seed-100010 archetype=chain score=94 grade=excellent
+□       □
+-       ÷
+□ + □ = □   □
+=       =   -
+□   □ × □ = □
+            =
+        □ + □ = □
+
+# 03-seed-100015 archetype=chain score=94 grade=excellent
+        □       □
+        ÷       -
+    □   □ + □ = □
+    -   =       =
+    □ × □ = □   □
+    =
+□ + □ = □
+
+# 04-seed-100022 archetype=chain score=94 grade=excellent
+□ + □ = □
+    -
+    □ × □ = □   □
+    =   ÷       -
+    □   □ + □ = □
+        =       =
+        □       □
+
+# 05-seed-100027 archetype=chain score=94 grade=excellent
+    □ - □ = □
+        +
+    □   □
+    ×   =
+□   □ ÷ □ = □
++   =
+□ - □ = □
+=
+□
+
+# 06-seed-100037 archetype=chain score=94 grade=excellent
+□
++
+□ - □ = □
+=   ×
+□   □ ÷ □ = □
+    =   +
+    □   □
+        =
+    □ - □ = □
+
+# 07-seed-100040 archetype=chain score=94 grade=excellent
+        □       □
+        ÷       -
+    □   □ + □ = □
+    -   =       =
+    □ × □ = □   □
+    =
+□ + □ = □
+
+# 08-seed-100047 archetype=chain score=94 grade=excellent
+            □
+            +
+    □ - □ = □
+        ×   =
+□ ÷ □ = □   □
+    +   =
+    □   □
+    =
+□ - □ = □
+
+# 09-seed-100051 archetype=chain score=94 grade=excellent
+            □
+            +
+    □ - □ = □
+        ×   =
+□ ÷ □ = □   □
+    +   =
+    □   □
+    =
+□ - □ = □
+
+# 10-seed-100054 archetype=chain score=94 grade=excellent
+        □ + □ = □
+            -
+□   □ × □ = □
+-       ÷   =
+□ + □ = □   □
+=       =
+□       □
+
+# 11-seed-100060 archetype=chain score=94 grade=excellent
+□ + □ = □
+    -
+    □ × □ = □   □
+    =   ÷       -
+    □   □ + □ = □
+        =       =
+        □       □
+
+# 12-seed-100071 archetype=chain score=94 grade=excellent
+        □ + □ = □
+            -
+□   □ × □ = □
+-       ÷   =
+□ + □ = □   □
+=       =
+□       □
+
+# 13-seed-100076 archetype=chain score=94 grade=excellent
+□
++
+□ - □ = □
+=   ×
+□   □ ÷ □ = □
+    =   +
+    □   □
+        =
+    □ - □ = □
+
+# 14-seed-100083 archetype=chain score=94 grade=excellent
+        □ + □ = □
+            -
+□   □ × □ = □
+-       ÷   =
+□ + □ = □   □
+=       =
+□       □
+
+# 15-seed-100084 archetype=chain score=94 grade=excellent
+□       □
+-       ÷
+□ + □ = □   □
+=       =   -
+□   □ × □ = □
+            =
+        □ + □ = □
+
+# 16-seed-100089 archetype=chain score=94 grade=excellent
+    □ - □ = □
+        +
+    □   □
+    ×   =
+□   □ ÷ □ = □
++   =
+□ - □ = □
+=
+□
+
+# 17-seed-100096 archetype=chain score=94 grade=excellent
+            □
+            +
+    □ - □ = □
+        ×   =
+□ ÷ □ = □   □
+    +   =
+    □   □
+    =
+□ - □ = □
+
+# 18-seed-100098 archetype=chain score=94 grade=excellent
+    □ - □ = □
+        +
+    □   □
+    ×   =
+□   □ ÷ □ = □
++   =
+□ - □ = □
+=
+□
+
+# 19-seed-100101 archetype=chain score=94 grade=excellent
+□ - □ = □
+    +
+    □   □
+    =   ×
+□ ÷ □ = □   □
+        =   +
+    □ - □ = □
+            =
+            □
+
+# 20-seed-100104 archetype=chain score=94 grade=excellent
+        □ + □ = □
+            -
+□   □ × □ = □
+-       ÷   =
+□ + □ = □   □
+=       =
+□       □

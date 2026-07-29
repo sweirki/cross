@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": ".device-feel-m243-build",
+    "rootDir": ".",
+    "declaration": false
+  },
+  "include": [
+    "src/ui/device/types.ts",
+    "src/ui/device/preferences.ts",
+    "src/ui/device/persistence.ts",
+    "src/ui/device/cues.ts",
+    "src/ui/device/announcementQueue.ts",
+    "src/ui/device/services.ts",
+    "tools/tests/device-feel-m243.test.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    ".device-feel-m243-build"
+  ]
+}

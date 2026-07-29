@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rootDir": ".",
+    "outDir": ".studio-v1-build",
+    "strict": true,
+    "noEmit": false,
+    "noEmitOnError": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/content/v1/**/*.ts",
+    "src/studio/v1/**/*.ts",
+    "src/types/ContentPlatformRuntime.ts",
+    "src/types/StudioRuntime.ts",
+    "tools/tests/studio-runtime-v1.test.ts"
+  ]
+}

@@ -1,0 +1,71 @@
+import type { SkillGraph } from "../types/CrossMathAcademy";
+
+export const ACADEMY_SKILL_GRAPH: SkillGraph = {
+  schemaVersion: 1,
+  skills: [
+    {
+      id: "place-number",
+      title: "Place Numbers",
+      description: "Select and place number tiles on the board.",
+      prerequisites: [],
+      practiceThreshold: 45,
+      masteryThreshold: 75,
+    },
+    {
+      id: "addition",
+      title: "Addition",
+      description: "Complete addition equations.",
+      prerequisites: ["place-number"],
+      practiceThreshold: 50,
+      masteryThreshold: 80,
+    },
+    {
+      id: "subtraction",
+      title: "Subtraction",
+      description: "Complete subtraction equations.",
+      prerequisites: ["addition"],
+      practiceThreshold: 50,
+      masteryThreshold: 80,
+    },
+    {
+      id: "multiplication",
+      title: "Multiplication",
+      description: "Complete multiplication equations.",
+      prerequisites: ["addition"],
+      practiceThreshold: 50,
+      masteryThreshold: 80,
+    },
+    {
+      id: "division",
+      title: "Division",
+      description: "Complete exact integer division equations.",
+      prerequisites: ["multiplication"],
+      practiceThreshold: 50,
+      masteryThreshold: 80,
+    },
+    {
+      id: "shared-number",
+      title: "Shared Numbers",
+      description: "Use one number as part of multiple equations.",
+      prerequisites: ["addition"],
+      practiceThreshold: 55,
+      masteryThreshold: 82,
+    },
+    {
+      id: "mixed-operators",
+      title: "Mixed Operations",
+      description: "Reason across equations with different operations.",
+      prerequisites: ["subtraction", "multiplication", "division"],
+      practiceThreshold: 60,
+      masteryThreshold: 84,
+    },
+    {
+      id: "dependency-chain",
+      title: "Dependency Chains",
+      description: "Solve connected equations in a productive order.",
+      prerequisites: ["shared-number", "mixed-operators"],
+      practiceThreshold: 60,
+      masteryThreshold: 85,
+    },
+  ],
+};

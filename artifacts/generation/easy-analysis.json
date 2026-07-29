@@ -1,0 +1,25 @@
+{
+  "difficulty": "easy",
+  "generated": 2500,
+  "accepted": 150,
+  "ms": 25497,
+  "rejectionCounts": {
+    "accepted": 150,
+    "hard-gate-rejected": 0,
+    "duplicate-rejected": 0,
+    "diversity-rejected": 0,
+    "ranked-out": 2350,
+    "generation-failed": 0
+  },
+  "score": {
+    "min": 84.69,
+    "p25": 85.05,
+    "median": 85.29,
+    "p75": 85.59,
+    "max": 86.19
+  },
+  "families": {
+    "balanced-asymmetric": 77,
+    "four-corners": 73
+  }
+}

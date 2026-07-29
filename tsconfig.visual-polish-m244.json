@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": ".visual-polish-m244-build",
+    "rootDir": ".",
+    "declaration": false
+  },
+  "include": [
+    "src/ui/theme/types.ts",
+    "src/ui/theme/preferences.ts",
+    "src/ui/theme/persistence.ts",
+    "src/ui/theme/resolve.ts",
+    "src/ui/theme/tokens/spacing.ts",
+    "src/ui/theme/tokens/typography.ts",
+    "src/ui/theme/tokens/foundation.ts",
+    "src/ui/theme/themes/palettes.ts",
+    "src/ui/theme/responsive/layout.ts",
+    "src/ui/theme/components/recipes.ts",
+    "tools/tests/visual-polish-m244.test.ts",
+    "src/ui/theme/core.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    ".visual-polish-m244-build"
+  ]
+}

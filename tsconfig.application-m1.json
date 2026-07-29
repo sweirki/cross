@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": ".application-m1-build",
+    "rootDir": ".",
+    "declaration": false,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/application/v1/**/*.ts",
+    "src/data/learningContent.ts",
+    "src/data/bundledLibrary.ts",
+    "src/data/demoPuzzle.ts",
+    "src/data/tutorialPuzzles.ts",
+    "src/types/**/*.ts",
+    "src/services/GuidedLessonRuntime.ts",
+    "src/services/LearningContentRuntime.ts",
+    "src/services/PuzzleLibrary.ts",
+    "src/game/**/*.ts",
+    "src/engine/**/*.ts",
+    "tools/tests/application-milestone1.test.ts"
+  ],
+  "exclude": [
+    "src/**/*.tsx",
+    "node_modules",
+    ".application-m1-build"
+  ]
+}

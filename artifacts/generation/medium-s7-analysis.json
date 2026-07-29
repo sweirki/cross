@@ -1,0 +1,27 @@
+{
+  "difficulty": "medium",
+  "shard": 7,
+  "generated": 250,
+  "accepted": 20,
+  "ms": 29036,
+  "rejectionCounts": {
+    "accepted": 20,
+    "hard-gate-rejected": 0,
+    "duplicate-rejected": 0,
+    "diversity-rejected": 0,
+    "ranked-out": 230,
+    "generation-failed": 0
+  },
+  "score": {
+    "min": 85.52,
+    "p25": 85.62,
+    "median": 85.69,
+    "p75": 85.87,
+    "max": 86.59
+  },
+  "families": {
+    "balanced-asymmetric": 8,
+    "four-corners": 5,
+    "triangle": 7
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": ".gameplay-motion-m242-build",
+    "rootDir": ".",
+    "declaration": false
+  },
+  "include": [
+    "src/ui/motion/types.ts",
+    "src/ui/motion/preferences.ts",
+    "src/ui/motion/tokens.ts",
+    "src/ui/motion/animations.ts",
+    "src/ui/motion/transitions.ts",
+    "src/ui/motion/gameplay.ts",
+    "tools/tests/gameplay-motion-m242.test.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    ".gameplay-motion-m242-build"
+  ]
+}

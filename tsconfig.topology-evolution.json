@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "rootDir": ".",
+    "outDir": ".topology-evolution-build",
+    "noEmitOnError": true,
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "src/engine/**/*.ts",
+    "src/game/board/**/*.ts",
+    "src/game/generator/**/*.ts",
+    "src/game/solver/**/*.ts",
+    "src/game/difficulty/**/*.ts",
+    "src/game/validation/TopologyValidation.ts",
+    "src/game/validation/PuzzleValidation.ts",
+    "src/types/Topology.ts",
+    "src/types/EquationGraph.ts",
+    "src/types/NumberSynthesis.ts",
+    "src/types/Puzzle.ts",
+    "src/types/Cell.ts",
+    "src/types/Equation.ts",
+    "src/types/Position.ts",
+    "src/types/Operator.ts",
+    "src/types/Difficulty.ts",
+    "src/types/PuzzleCreation.ts",
+    "src/types/Solver.ts",
+    "src/types/DifficultyCertification.ts",
+    "src/types/IndustrialGeneration.ts",
+    "tools/tests/topology-evolution.test.ts"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": ".progression-m23-build",
+    "rootDir": ".",
+    "declaration": false
+  },
+  "include": [
+    "src/progression/v1/**/*.ts",
+    "tools/tests/progression-m23.test.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    ".progression-m23-build"
+  ]
+}

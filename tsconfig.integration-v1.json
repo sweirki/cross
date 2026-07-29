@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": ".integration-v1-build",
+    "rootDir": ".",
+    "declaration": false,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/integration/v1/**/*.ts",
+    "src/game/**/*.ts",
+    "src/engine/**/*.ts",
+    "src/types/**/*.ts",
+    "src/data/demoPuzzle.ts",
+    "tools/tests/react-native-integration-v1.test.ts"
+  ],
+  "exclude": [
+    "src/**/*.tsx",
+    "node_modules",
+    ".integration-v1-build"
+  ]
+}

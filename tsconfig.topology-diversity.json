@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "rootDir": ".",
+    "outDir": ".topology-diversity-build",
+    "noEmitOnError": true
+  },
+  "include": [
+    "src/game/topology/**/*.ts",
+    "src/game/board/**/*.ts",
+    "src/types/Topology.ts",
+    "tools/tests/topology-diversity.test.ts",
+    "tools/topology-quality-report.ts"
+  ]
+}

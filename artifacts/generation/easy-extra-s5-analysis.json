@@ -1,0 +1,15 @@
+{
+  "difficulty": "easy",
+  "shard": 5,
+  "generated": 625,
+  "accepted": 40,
+  "ms": 16288,
+  "rejectionCounts": {
+    "accepted": 40,
+    "hard-gate-rejected": 0,
+    "duplicate-rejected": 0,
+    "diversity-rejected": 0,
+    "ranked-out": 585,
+    "generation-failed": 0
+  }
+}

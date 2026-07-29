@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./.commercial-build",
+    "rootDir": ".",
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/data/BoardCompositionEngine.ts",
+    "src/data/commercialPuzzles.ts",
+    "src/data/bundledLibrary.ts",
+    "src/data/demoPuzzle.ts",
+    "src/data/tutorialPuzzles.ts",
+    "src/types/**/*.ts",
+    "src/services/PuzzleLibrary.ts",
+    "src/game/validation/PuzzleValidation.ts",
+    "src/engine/math/**/*.ts"
+  ]
+}

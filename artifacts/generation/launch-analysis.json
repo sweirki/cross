@@ -1,0 +1,20 @@
+{
+  "generatedCandidates": 12525,
+  "availableAccepted": {
+    "easy": 630,
+    "medium": 200,
+    "hard": 5,
+    "expert": 0
+  },
+  "launchCatalog": {
+    "easy": 195,
+    "medium": 200,
+    "hard": 5,
+    "expert": 0
+  },
+  "puzzleCount": 400,
+  "notes": [
+    "Hard and expert generation throughput requires tuning before broad launch expansion.",
+    "Legacy generator retained until multiple full regression cycles pass."
+  ]
+}

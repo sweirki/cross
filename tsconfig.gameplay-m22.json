@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": ".gameplay-m22-build",
+    "rootDir": ".",
+    "declaration": false
+  },
+  "include": [
+    "src/application/v1/GameplayPolishTypes.ts",
+    "src/application/v1/CrossMathGameplayPolish.ts",
+    "tools/tests/gameplay-polish-m22.test.ts"
+  ],
+  "exclude": ["node_modules", ".gameplay-m22-build"]
+}

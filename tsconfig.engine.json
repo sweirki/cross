@@ -1,0 +1,51 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "bundler",
+    "rootDir": ".",
+    "outDir": ".engine-build",
+    "strict": true,
+    "noEmit": false,
+    "noEmitOnError": true,
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "src/engine/**/*.ts",
+    "src/game/board/**/*.ts",
+    "src/game/validation/TopologyValidation.ts",
+    "src/types/Topology.ts",
+    "tools/tests/**/*.ts",
+    "src/types/EquationGraph.ts",
+    "src/game/generator/**/*.ts",
+    "src/types/NumberSynthesis.ts",
+    "src/types/Puzzle.ts",
+    "src/types/Cell.ts",
+    "src/types/Equation.ts",
+    "src/types/Position.ts",
+    "src/types/Operator.ts",
+    "src/types/Difficulty.ts",
+    "src/types/PuzzleCreation.ts",
+    "src/game/validation/PuzzleValidation.ts",
+    "src/game/solver/**/*.ts",
+    "src/types/Solver.ts",
+    "src/game/difficulty/**/*.ts",
+    "src/game/validation/DifficultyValidation.ts",
+    "src/types/DifficultyCertification.ts",
+    "src/types/IndustrialGeneration.ts",
+    "src/game/engine/**/*.ts",
+    "src/types/Game.ts",
+    "src/services/PuzzleLibrary.ts",
+    "src/services/**/*.ts",
+    "src/types/RuntimeContent.ts",
+    "src/data/demoPuzzle.ts",
+    "src/types/LearningContent.ts",
+    "src/services/LearningContentRuntime.ts",
+    "src/data/tutorialPuzzles.ts",
+    "src/data/learningContent.ts",
+    "src/data/bundledLibrary.ts"
+  ]
+}

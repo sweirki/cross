@@ -1,0 +1,27 @@
+Phase 3.3 Cross Board Generator verification
+Source: /mnt/data/cross(6).zip
+
+Files added:
+- src/engine/board/CrossBoardGenerator.ts
+- src/engine/board/index.ts
+- src/engine/index.ts
+- tools/tests/cross-board-generator.test.ts
+- tools/scripts/phase-3-3.ps1
+
+Validation performed in container:
+- TypeScript strict compilation: PASS
+- Existing arithmetic tests: 10/10 PASS
+- Existing expression-generator tests: 6/6 PASS
+- New cross-board-generator tests: 6/6 PASS
+
+New test results:
+PASS generator creates a five-by-five crossed board
+PASS equations intersect at exactly one shared number node
+PASS all occupied coordinates are unique
+PASS canonical solution covers every number node
+PASS both assembled equations are mathematically valid
+PASS generation is deterministic
+
+6/6 cross-board-generator tests passed.
+
+Note: Container validation used the available global TypeScript 5.8.3 because dependency installation in the isolated container did not complete. The included PowerShell verification script uses the repository's npm dependencies and engine:build command on the user's machine.
